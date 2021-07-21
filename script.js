@@ -17,7 +17,7 @@ let weather = {
         console.log(name, description, temp, humidity, speed);
         document.querySelector(".city").innerText = "Weather in " + name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
-        document.body.style.backgroundImage = "url('https: //source.unsplash.com/1600x900/?" + name + "')"
+//         document.body.style.backgroundImage = "url('https: //source.unsplash.com/1600x900/?" + name + "')"
         document.querySelector(".description").innerText = "" + description;
         document.querySelector(".temp").innerText = +temp + "°C";
         document.querySelector(".humidity").innerText = "humidity : " + humidity + "%";
